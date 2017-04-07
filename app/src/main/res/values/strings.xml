@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PhoneERP</string>
+    <string name="login_user_name">User Name: </string>
+    <string name="login_password">Password : </string>
+    <string name="login_button">Login</string>
+</resources>
