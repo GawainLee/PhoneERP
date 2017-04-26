@@ -37,6 +37,11 @@ public class LogButton extends Button
         this.message = message;
     }
 
+    /**
+     * check button click or not
+     * @param event
+     * @return
+     */
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         String time = df.format(System.currentTimeMillis());

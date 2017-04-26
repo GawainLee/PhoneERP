@@ -168,12 +168,10 @@ public class mainInterface extends AppCompatActivity //FragmentActivity
                     functionTreeViewFragment = new FunctionTreeViewFragment();
                     functionTreeViewFragment.setUserGridViewFragment(userGridViewFragment);
                     fragmentTransaction.add(R.id.frameLayoutContent,functionTreeViewFragment,functionTreeViewFragment.getClass().getName());
-                    System.out.println("2");
                 }
                 else
                 {
                     fragmentTransaction.show(functionTreeViewFragment);
-                    System.out.println("22");
                 }
                 fragmentTransaction.addToBackStack(null);
 //                fragmentTransaction.commitAllowingStateLoss();

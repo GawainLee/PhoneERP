@@ -23,6 +23,10 @@ public class ConnectServer extends Thread {
         this.message = message;
     }
 
+
+    /**
+     * connection server
+     */
     @Override
     public void run() {
         try {
